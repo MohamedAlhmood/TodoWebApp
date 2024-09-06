@@ -18,6 +18,7 @@ try:
             del st.session_state[todo]
             st.rerun()
 except:
+
     pass
 
 
