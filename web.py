@@ -7,7 +7,6 @@ def add_todo():
     todos.append(todo)
     functions.writeTodos(todos)
 
-
 st.title("To-do List")
 st.write('This app is to increase your productivity')
 try:

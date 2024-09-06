@@ -8,7 +8,6 @@ def get_todos(filepath=FILEPATH):
         todosLocal = fileLocal.readlines()
     return todosLocal
 
-
 def writeTodos(todosArg, filepath=FILEPATH):
     """Write the todo items list in a given text file"""
     with open(filepath, 'w') as file:
